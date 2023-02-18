@@ -2,7 +2,15 @@ Promo Project - *Esperando nome e logo para atualizar projeto*
 
 Tutorial para instalar e rodar o projeto: 
 
-1. Instale o node.js no site node.org (pesquise e instale a versão mais recente); 
+Pré-Requisitos: 
+
+Instale o node.js no site node.org (pesquise e instale a versão mais recente); 
+Instale o Github Desktop;
+Clique no Repositório em "<>Code" 
+Abrir com Github Desktop
+Depois "Abrir no VScode"
+E siga esse passo a passo:
+
 2. Abra o terminal no VsCode (control + shift + ")
 3. Digite: npm init (aqui vc vai criar um package json)
 4. De OK em tudo até aparecer uma nova linha do terminal
