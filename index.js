@@ -4,9 +4,11 @@ var bodyParser = require('body-parser');
 
 const path = require('path');
 
-const app = express()
+const app = express();
 
 const Posts = require('./Posts.js');
+
+var session = require('express-session');
 
 //mongoose.set('strictQuery', true);
 
@@ -20,6 +22,14 @@ app.use( bodyParser.json() );       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
 })); 
+
+app.use(session({
+    secret: 'keyboard cat',
+    cookie: { maxAge: 6000 }
+  }))
+
+
+
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
@@ -134,9 +144,9 @@ var usuarios = [
 
   {
 
-      login: 'gabriel',
+      login: 'vava',
 
-      senha:'Saturno1'
+      senha:'1234'
 
   }
 
@@ -150,7 +160,7 @@ app.post('/admin/login',(req,res)=>{
 
       if(val.login == req.body.login && val.senha == req.body.senha){
 
-          req.session.login = "guilherme";
+          req.session.login = "vava";
 
           
 
@@ -187,9 +197,10 @@ app.get('/admin/deletar/:id', (req,res)=>{
 
 app.get('/admin/login', (req,res)=>{
   if(req.session.login == null){
-      res.render('admin-login');
+     res.render('admin-login');
+     
   }else{
-      res.render('admin-painel');
+     res.render('admin-painel');
   }
 })
 

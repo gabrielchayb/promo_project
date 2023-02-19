@@ -17,6 +17,11 @@ E siga esse passo a passo:
 5. Digite: npm install express body-parser ejs
 6. Digite: npm install nodemon
 7. Digite: npm install mongoose
+8. Digite: npm install express-session
 8. Digite para iniciar o servidor: nodemon index.js 
 9. Digite no seu navegador: localhost:5000
 10. Pronto!
+
+OBS: Crie uma database no MONGOdb Atlas e coloque a connection string no index.js; Coloque a senha e o nome da Database. 
+Além disso, lembre-se de criar uma coleção e inserir documentos nela com os indexes descritos em Posts.js com valores em string. 
+Qualquer dúvidas, consultar curso Danki Code sobre como conectar correntamente MongoDB com Node.js. 
