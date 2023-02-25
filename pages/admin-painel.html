@@ -7,7 +7,7 @@
     <title>Painel do ADM!</title>
     <style>
         *{
-            background-color: white;
+            background-color: black;
             margin:0px;
             padding:0px;
             box-sizing: border-box;
@@ -63,10 +63,10 @@
         <h2>Painel do ADM 👽 - Cadastrar Notícias</h2>
     </div>
     <form method = "post" action="/admin/cadastro">
-        <input type = "text" name = "titulo_noticia" placeholder="Título da Notícia..."/>
-        <input type = "text" name = "url_imagem" placeholder="Link da imagem..."/>
+        <input type = "text" name = "titulo_noticia" placeholder="Título da Promoção..."/>
+        <input type = "file" name = "url_imagem" placeholder="Insira a imagem..."/>
         <input type = "text" name = "slug" placeholder="Slug"/>
-        <textarea name = "noticia" placeholder="Texto da notícia..."></textarea>
+        <textarea name = "noticia" placeholder="Descrição da Promoção..."></textarea>
         <button>Subir Notícia!🦆😎</button> <!---<input type = "submit" name = "acao" placeholder = "enviar noticia"/>-->
     </form>
     <br/><br/>

@@ -78,7 +78,7 @@ header{
   
   section.noticia-destaque{
       padding:40px 0;
-      background-color: black;
+      background-color: #f5f5f5;
   }
 
   section.noticia-destaque > .center{
@@ -133,7 +133,7 @@ header{
 
 
   section.outras-noticias{
-      background-color: black;
+      background-color: white;
       padding:30px 20px;
       text-align: center;
   }
@@ -277,7 +277,7 @@ header{
 
 .noticia-single{
     padding:20px;
-    background-color: white;
+    background-color: #f5f5f5;
     border-radius:10px;
     width:58%;
     margin-right: 2%;
