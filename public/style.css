@@ -190,9 +190,9 @@ header{
       display: block;
       width: 181px;
       height: 56px;
-     border: 1px solid #EBEBEB;
-     text-decoration: none;
-     color:#0AACDC;
+     border: 1px solid #7B8591;
+     text-decoration: none; 
+     color:#00AE65  ;
      border-radius:10px;
      line-height: 56px;
      text-align: center;
@@ -309,6 +309,20 @@ header{
   color:#7B8591;
   font-size: 33px;
   margin:10px 0;
+}
+
+.noticia-single a{
+    display: block;
+    width: 181px;
+    height: 56px;
+    margin-top: 10%;
+   border: 1px solid #7B8591;
+   text-decoration: none;
+   color:#00AE65  ;
+   border-radius:10px;
+   line-height: 56px;
+   text-align: center;
+   font-size: 19px;
 }
 
 @media screen and (max-width: 768px){

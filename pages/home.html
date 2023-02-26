@@ -4,13 +4,15 @@
    <section class="noticia-destaque">
        <div class="center">
            <div class="img-destaque">
-               <div class="overlay-destaque"></div>
+               <div class="overlay-destaque">
+                    <a href="<%= posts[0].slug%>"><img src="<%= posts[0].imagem%>"</a>
+               </div>
                <div class="title-destaque-descricao">
                    <!--feito em off o link aqui e adicionado nos estilos-->
                    <a href="<%= posts[0].slug%>"><h2><%= posts[0].titulo %></h2></a>
                    <p><%- posts[0].descricaoCurta %>...</p>
                </div>
-               <img src="<%= posts[0].imagem%>" />
+               <img src="<%= posts[0].imagem%>"/>
            </div>
        </div>
    </section>
@@ -28,8 +30,8 @@
                        <div class="conteudo-noticia-single">
                        <h3><%= posts[i].categoria %></h3>
                        <h2><%= posts[i].titulo %></h2>
-                       <p><%- posts[i].descricaoCurta %>...</p>
-                       <a href="<%= posts[i].slug %>">Comprar Agora</a>
+                       <p><%- posts[i].descricaoCurta %></p>
+                       <a href="<%= posts[i].slug %>">Saiba Mais</a>
                    </div>
                    </div>
 
