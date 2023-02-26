@@ -144,9 +144,9 @@ var usuarios = [
 
   {
 
-      login: 'vava',
+      login: 'tiago_bbm',
 
-      senha:'1234'
+      senha:'Business#123'
 
   }
 
@@ -160,7 +160,7 @@ app.post('/admin/login',(req,res)=>{
 
       if(val.login == req.body.login && val.senha == req.body.senha){
 
-          req.session.login = "vava";
+          req.session.login = "tiago_bbm";
 
           
 
