@@ -7,7 +7,7 @@
 
 .title-destaque-descricao a{
     text-decoration: none;
-    color: white;
+    color: #00AE65;
 }
 
 header{
@@ -55,24 +55,24 @@ header{
     position: absolute;
     left: 10px;
     top:7px;
-    color:white;
+    color: #00AE65;
     font-size: 20px;
 }
 
 .form-busca input{
-    height:40px;
+    height:50px;
     width:100%;
     border:0;
     font-size: 20px;
-    color:white;
-    background-color: black;
+    color: #00AE65;
+    background-color: white;
     padding-left: 40px;
     border-radius:10px;
 }
 
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: white;
+    color: #00AE65;
     opacity: 1; /* Firefox */
   }
   
@@ -140,7 +140,7 @@ header{
 
   section.outras-noticias h2{
       font-size: 54px;
-      color: white;
+      color: #00AE65;
   }
 
   .ultimas{
@@ -213,7 +213,7 @@ header{
  
 
   .mais-lidas > h3{
-      background-color: #3F51B5;
+      background-color: #00AE65;
       color:white;
       text-align: center;
       padding:10px 8px;
