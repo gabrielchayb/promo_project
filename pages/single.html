@@ -16,20 +16,7 @@
             
 
         </div>
-        <div class="mais-lidas">
-            <h3>Mais Lidas</h3>
-            <div class="mais-lidas-noticias">
-                <% for(let i = 0; i < postsTop.length; i++) { %>
-                <div class="mais-lida-noticia-single">
-                    <img src="<%= postsTop[i].imagem %>" />
-                    <div class="texto-mais-lida-single">
-                        <h4><%= postsTop[i].titulo %></h4>
-                        <p><%- postsTop[i].descricaoCurta %>...</p>
-                        <a href="<%= postsTop[i].slug %>">Saiba mais</a>
-                    </div>
-                </div>
-                <% } %>
-            </div>
+        
         </div>
     </div>
 </section>

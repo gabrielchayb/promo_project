@@ -144,7 +144,7 @@ header{
   }
 
   .ultimas{
-      width:60%;
+      width:100%;
       padding:0 10px;
       display: flex;
       height:100%;
@@ -153,8 +153,10 @@ header{
   }
 
   .box-ultima-single{
-      text-align: left;
-      width:48%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      width:23%;
       margin-right: 2%;
       background-color: white;
       padding-bottom:20px;
@@ -205,61 +207,7 @@ header{
 
 
 
-  .mais-lidas{
-      width:40%;
-      height:100%;
-      background-color:white;
-  }
- 
-
-  .mais-lidas > h3{
-      background-color: #006491;
-      color:white;
-      text-align: center;
-      padding:10px 8px;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-  }
-
-  .mais-lida-noticia-single{
-      text-align: left;
-      padding:20px;
-      display: flex;
-      flex-wrap: wrap;
-  }
-
-  .mais-lida-noticia-single img{
-      width:100%;
-  }
-
-  .mais-lida-noticia-single .texto-mais-lida-single{
-      width:70%;
-      padding:8px 20px;
-  }
-
-  .texto-mais-lida-single h4{
-      color:#40BE65;
-      letter-spacing: 3.2px;
-  }
-
-  .texto-mais-lida-single p{
-      color:#7B8591;
-      font-size:14px;
-  }
-
-  .texto-mais-lida-single a{
-        margin-top:10px;
-        display: block;
-        width: 121px;
-        height: 36px;
-        border: 1px solid #EBEBEB;
-        text-decoration: none;
-        color: purple;
-        border-radius:10px;
-        line-height: 36px;
-        text-align: center;
-        font-size: 14px;
-  }
+  
 
   footer{
       
@@ -276,10 +224,12 @@ header{
 }
 
 .noticia-single{
+    justify-content: center;
+    align-items: center;
     padding:20px;
     background-color: #f5f5f5;
     border-radius:10px;
-    width:58%;
+    width:100%;
     margin-right: 2%;
 }
 
